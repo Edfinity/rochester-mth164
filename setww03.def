@@ -10,7 +10,7 @@ description       = 12.6 Visualizing graphs - quadric surfaces and cylinders<n>1
 restrictProbProgression = 0
 emailInstructor   = 0
 
-problemListV2 
+problemListV2
 problem_start
 problem_id = 1
 source_file = Library/Michigan/Chap12Sec2/Q01.pg
@@ -19,17 +19,17 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 2
-source_file = local/Library/ASU-topics/setCalculus/stef/stef12_6p1/stef12_6p1a.pg
+source_file = Library/ASU-topics/setCalculus/stef/stef12_6p1/stef12_6p1.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 3
@@ -39,7 +39,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 4
@@ -49,7 +49,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 5
@@ -59,7 +59,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 6
@@ -69,7 +69,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 7
@@ -79,7 +79,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 8
@@ -89,17 +89,17 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 9
-source_file = local/Library/maCalcDB/setVecFunction1Curves/urvc_3_12.pg
+source_file = Library/maCalcDB/setVecFunction1Curves/urvc_3_12.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 10
@@ -109,7 +109,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 11
@@ -119,7 +119,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 12
@@ -129,7 +129,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 13
@@ -139,27 +139,27 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 14
-source_file = local/Library/maCalcDB/setVectors1space3D/UR_VC_1_2.pg
+source_file = Library/maCalcDB/setVectors1space3D/UR_VC_1_2.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 15
-source_file = local/Library/Rochester/setVectors1space3D/UR_VC_1_7.pg
+source_file = Library/Rochester/setVectors1space3D/UR_VC_1_7.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 16
@@ -169,7 +169,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 17
@@ -179,17 +179,17 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 18
-source_file = local/Library/Michigan/Chap17Sec1/Q67.pg
+source_file = Library/Michigan/Chap17Sec1/Q67.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 19
@@ -199,27 +199,27 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 20
-source_file = local/Library/FortLewis/Calc3/17-2-Motion-velocity/HGM4-17-2-26-Motion-velocity-acceleration_b.pg
+source_file = Library/FortLewis/Calc3/17-2-Motion-velocity/HGM4-17-2-26-Motion-velocity-acceleration.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 21
-source_file = local/Library/272/setStewart13_2/problem_8.pg
+source_file = Library/272/setStewart13_2/problem_8.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 22
@@ -229,7 +229,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 23
@@ -239,7 +239,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 24
@@ -249,7 +249,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 25
@@ -259,6 +259,5 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
-

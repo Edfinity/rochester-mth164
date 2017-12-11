@@ -6,11 +6,11 @@ answerDate        = 01/30/2017 at 11:00am EST
 enableReducedScoring = N
 paperHeaderFile   = ww01_header.pg
 screenHeaderFile  = ww01_header.pg
-description       = 
+description       =
 restrictProbProgression = 0
 emailInstructor   = 0
 
-problemListV2 
+problemListV2
 problem_start
 problem_id = 1
 source_file = Library/Dartmouth/setStewartCh13S1/problem_2.pg
@@ -19,7 +19,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 2
@@ -29,7 +29,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 3
@@ -39,7 +39,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 4
@@ -49,7 +49,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 5
@@ -59,7 +59,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 6
@@ -69,7 +69,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 7
@@ -79,17 +79,17 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 8
-source_file = local/Library/Union/setMVvectors/vectors-5b.pg
+source_file = Library/Union/setMVvectors/vectors-5b.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 9
@@ -99,7 +99,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 10
@@ -109,17 +109,17 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 11
-source_file = local/Library/Rochester/setVectors2DotProduct/UR_VC_1_16.pg
+source_file = Library/Rochester/setVectors2DotProduct/UR_VC_1_16.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 12
@@ -129,7 +129,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 13
@@ -139,7 +139,7 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 14
@@ -149,17 +149,17 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 15
-source_file = local/Library/FortLewis/Calc3/13-1-Displacement-vectors/HGM4-13-1-30-Displacement-vectors/HGM4-13-1-30-Displacement-vectors.pg
+source_file = Library/FortLewis/Calc3/13-1-Displacement-vectors/HGM4-13-1-30-Displacement-vectors/HGM4-13-1-30-Displacement-vectors.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 16
@@ -169,6 +169,5 @@ max_attempts = -1
 showMeAnother = -1
 prPeriod = -1
 counts_parent_grade = 0
-att_to_open_children = 0 
+att_to_open_children = 0
 problem_end
-

@@ -13,7 +13,7 @@ emailInstructor   = 0
 problemListV2 
 problem_start
 problem_id = 1
-source_file = local/Library/maCalcDB/setVectors2DotProduct/UR_VC_1_17.pg
+source_file = Library/maCalcDB/setVectors2DotProduct/UR_VC_1_17.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -53,7 +53,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 5
-source_file = local/Library/maCalcDB/setVectors3CrossProduct/ur_vc_2_5.pg
+source_file = Library/maCalcDB/setVectors3CrossProduct/ur_vc_2_5.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -63,7 +63,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 6
-source_file = local/Library/Rochester/setLinearAlgebra7AreaVolume/ur_la_7_1.pg
+source_file = Library/Rochester/setLinearAlgebra7AreaVolume/ur_la_7_1.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -153,7 +153,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 15
-source_file = local/Library/maCalcDB/setVectors4PlanesLines/ur_vc_2_13.pg
+source_file = Library/maCalcDB/setVectors4PlanesLines/ur_vc_2_13.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1

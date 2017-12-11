@@ -33,7 +33,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 3
-source_file = local/Library/Rochester/setVecFunction2Curvature/ur_vc_4_4.pg
+source_file = Library/Rochester/setVecFunction2Curvature/ur_vc_4_4.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -43,7 +43,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 4
-source_file = local/Library/Rochester/setVecFunction2Curvature/ur_vc_4_6.pg
+source_file = Library/Rochester/setVecFunction2Curvature/ur_vc_4_6.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -63,7 +63,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 6
-source_file = local/Union/setMVtraces/trace-1a.pg
+source_file = Library/Union/setMVtraces/trace-1a.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -73,7 +73,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 7
-source_file = local/Union/setMVtraces/trace-2a.pg
+source_file = Library/Union/setMVtraces/trace-2a.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -93,7 +93,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 9
-source_file = local/Library/Indiana/Indiana_setDerivatives20Antideriv/c3s10p4.pg
+source_file = Library/Indiana/Indiana_setDerivatives20Antideriv/c3s10p4.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -113,7 +113,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 11
-source_file = local/Library/Dartmouth/setStewartCh15S1/problem_3/problem_3.pg
+source_file = Library/Dartmouth/setStewartCh15S1/problem_3/problem_3.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -123,7 +123,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 12
-source_file = local/Library/FortLewis/Calc3/12-2-Multivariable-graphs/HGM4-12-2-16-Multivariable-functions-graphs.pg
+source_file = Library/FortLewis/Calc3/12-2-Multivariable-graphs/HGM4-12-2-16-Multivariable-functions-graphs.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -233,7 +233,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 23
-source_file = local/Library/Rochester/setVecFunction3Motion/ur_vc_4_7.pg
+source_file = Library/Rochester/setVecFunction3Motion/ur_vc_4_7.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1

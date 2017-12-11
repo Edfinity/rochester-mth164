@@ -143,7 +143,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 14
-source_file = local/Library/Michigan/Chap19Sec1/Q43.pg
+source_file = Library/Michigan/Chap19Sec1/Q43.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1

@@ -113,7 +113,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 11
-source_file = local/Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM4-18-2-08b-Line-integrals-parametrized.pg
+source_file = Library/FortLewis/Calc3/18-2-Line-integrals-parametrized/HGM4-18-2-08b-Line-integrals-parametrized.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -173,7 +173,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 17
-source_file = local/Library/Michigan/Chap18Sec3/Q40.pg
+source_file = Library/Michigan/Chap18Sec3/Q40.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -193,7 +193,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 19
-source_file = local/Library/Michigan/Chap18Sec4/Q07.pg
+source_file = Library/Michigan/Chap18Sec4/Q07.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1

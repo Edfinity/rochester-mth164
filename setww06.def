@@ -23,7 +23,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 2
-source_file = local/Library/Michigan/Chap14Sec3/Q19.pg
+source_file = Library/Michigan/Chap14Sec3/Q19.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -63,7 +63,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 6
-source_file = local/Library/FortLewis/Calc3/14-3-Local-linearity/HGM4-14-3-24-Local-linearity-differential.pg
+source_file = Library/FortLewis/Calc3/14-3-Local-linearity/HGM4-14-3-24-Local-linearity-differential.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -153,7 +153,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 15
-source_file = local/Library/Michigan/Chap14Sec6/Q19.pg
+source_file = Library/Michigan/Chap14Sec6/Q19.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
@@ -163,7 +163,7 @@ att_to_open_children = 0
 problem_end
 problem_start
 problem_id = 16
-source_file = local/Library/Michigan/Chap14Sec6/Q24.pg
+source_file = Library/Michigan/Chap14Sec6/Q24.pg
 value = 1
 max_attempts = -1
 showMeAnother = -1
