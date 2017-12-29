@@ -1,0 +1,91 @@
+##DESCRIPTION
+## Multivariable change of coordinates problem
+##ENDDESCRIPTION
+
+##KEYWORDS('multivariable', 'coordinate', 'Jacobian')
+
+## DBsubject('Calculus')
+## DBchapter('Multiple Integrals')
+## DBsection('Change of Variables in Multiple Integrals')
+## Date('10/27/2010')
+## Author('Scott Bailey')
+## Institution('University of Rochester')
+## TitleText1('Calculus: Early Transcendentals')
+## EditionText1('6')
+## AuthorText1('Stewart')
+## Section1('15.9')
+## Problem1('')
+
+########################################################################
+
+DOCUMENT();
+
+loadMacros(
+   "PGstandard.pl",     # Standard macros for PG language
+   "MathObjects.pl",
+   #"source.pl",        # allows code to be displayed on certain sites.
+   #"PGcourse.pl",      # Customization file for the course
+);
+
+# Print problem number and point value (weight) for the problem
+TEXT(beginproblem());
+
+# Show which answers are correct and which ones are incorrect
+$showPartialCorrectAnswers = 1;
+
+##############################################################
+#
+#  Setup
+#
+#
+Context("Numeric");
+Context()->variables->add(y=>"Real");
+
+$a = Real(random(1,2));
+$b = Real(random(3,4));
+$c = Real(random(3,4));
+$e = Real("e");
+
+$u = Compute("$a x - $b y")->reduce;
+$v = Compute("$c x - y")->reduce;
+
+$Jac = Compute("-1/($a-$b*$c)")->reduce;
+
+$ans = -2*($e-1)/($a-$b*$c);
+
+$pi = Real("pi");
+
+##############################################################
+#
+#  Text
+#
+#
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Suppose \( D \) is the parallelogram enclosed by the lines \( $u = 0 \), \( $u = 2 \), \( $v = 0 \) and \( $v = 1 \).
+
+$PAR
+
+\( \iint_D \left( $u \right) e^{$v} \,dA =\) \{ ans_rule(60) \}
+
+
+$PAR
+
+END_TEXT
+Context()->normalStrings;
+
+##############################################################
+#
+#  Answers
+#
+#
+
+ANS($ans->cmp);
+
+# relative tolerance --3.1412 is incorrect but 3.1413 is correct
+# default tolerance is .01 or one percent.
+
+
+ENDDOCUMENT();

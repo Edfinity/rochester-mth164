@@ -1,0 +1,147 @@
+##DESCRIPTION
+## Multivariable change of coordinates problem
+##ENDDESCRIPTION
+
+##KEYWORDS('multivariable', 'coordinate', 'Jacobian')
+
+## DBsubject('Calculus')
+## DBchapter('Multiple Integrals')
+## DBsection('Change of Variables in Multiple Integrals')
+## Date('10/27/2010')
+## Author('Scott Bailey')
+## Institution('University of Rochester')
+## TitleText1('Calculus: Early Transcendentals')
+## EditionText1('6')
+## AuthorText1('Stewart')
+## Section1('15.9')
+## Problem1('')
+
+########################################################################
+
+DOCUMENT();
+
+loadMacros(
+   "PGstandard.pl",     # Standard macros for PG language
+   "MathObjects.pl",
+   "PGML.pl",
+   #"source.pl",        # allows code to be displayed on certain sites.
+   "PGcourse.pl",      # Customization file for the course
+);
+
+# Print problem number and point value (weight) for the problem
+TEXT(beginproblem());
+
+# Show which answers are correct and which ones are incorrect
+$showPartialCorrectAnswers = 1;
+
+##############################################################
+#
+#  Setup
+#
+#
+Context("Numeric");
+Context()->variables->add(y=>"Real",r=>"Real",t=>"Real");
+
+$a = Real(random(2,5));
+$b = Real(random(3,6));
+
+$pi = Real("pi");
+
+$u = Compute("$a**2 x**2 + $b**2 y**2")->reduce;
+
+
+$Jac = Compute("r/($a*$b)")->reduce;
+
+$ans1 = Compute("1/$a")->reduce;
+$ans2 = Compute("1/$b")->reduce;
+$ans3 = Compute("0")->reduce;
+$ans4 = Compute("$pi/2")->reduce;
+$ans5 = $Jac;
+$ans6 = $Jac;
+$ans7 = Compute("r^2")->reduce;
+$ans8 = (1-cos(1))/(2*$a*$b)*($pi/2);
+
+
+##############################################################
+#
+#  Text
+#
+#
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Suppose \( D \) is the region in the first quadrant bounded by the ellipse \( $u = 1 \).  The goal of this exercise is to compute
+\( \iint_D \sin($u) \,dA \).  While the constant functions in Euclidean coordinates are vertical/horizontal lines, the constant functions in polar coordinates are circles and lines.  Polar coordinates are the best way to parametrize circular objects.
+
+$PAR
+
+The region in polar coordinates is given by
+
+$PAR
+
+\(x(r,\theta) = \) \{ ans_rule(4) \} \(r \cos \theta\)
+
+$PAR
+
+\(y(r,\theta) = \) \{ ans_rule(4) \} \(r \sin \theta\)
+
+$PAR
+
+Here, the region \( D \) becomes the region \( R \) given by \( 0 \leq r \leq 1 \) and \{ ans_rule(3) \} \(\leq \theta \leq\) \{ ans_rule(3) \}. Furthermore, the Jacobian of this transformation is given by
+
+$PAR
+\( \displaystyle{ \frac{\partial(x,y)}{\partial(r,\theta)} = }\) \{ ans_rule(6) \}.
+
+$PAR
+
+In particular
+\( \displaystyle{\iint_D \sin($u)\,dA = \iint_R}\)\{ans_rule(5)\} \(\sin(\)\{ans_rule(5)\}\( )dr\,d\theta =\) \{ans_rule{10}\}.
+
+
+
+
+END_TEXT
+
+BEGIN_PGML_HINT
+
+See section 15.9 for a quick description of the Jacobian, the magnification
+factor that cooresponds to changing coordinates.
+* In one dimension the magnification
+factor is just the derivative -- the change of variable formula is
+[`\int_{f(R)}g(y)dy = \int_{R}g\circ f(x) f'(x) dx`]
+where [`y=f(x)`] and [`f'`]
+is the magnification factor.
+* For two variables
+this is more complicated:
+if [`F(u,v) = \langle x=f(u,v), y=g(u,v)\rangle`]
+then the change of variable formula is
+[``\int_{F(R)}G(x,y)dxdy = \int_{R}G\circ F(u,v) J(u,v) dudv``]
+where the magnification factor is now \(J= det(DF)\), the determinant of the
+matrix obtained by taking all the partial derivatives related to [`F`]
+* Notice that for the change to polar coordinates given above [`J=r\sin\theta`]
+END_PGML_HINT
+Context()->normalStrings;
+
+##############################################################
+#
+#  Answers
+#
+#
+
+
+ANS($ans1->cmp);
+ANS($ans2->cmp);
+ANS($ans3->cmp);
+ANS($ans4->cmp);
+ANS($ans5->cmp);
+ANS($ans6->cmp);
+ANS($ans7->cmp);
+ANS($ans8->cmp);
+
+
+# relative tolerance --3.1412 is incorrect but 3.1413 is correct
+# default tolerance is .01 or one percent.
+
+
+ENDDOCUMENT();

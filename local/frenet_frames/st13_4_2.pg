@@ -1,0 +1,132 @@
+##DESCRIPTION
+##  Algebra problem: true or false for inequality 
+##ENDDESCRIPTION
+
+##KEYWORDS('algebra', 'inequality', 'fraction')
+
+## DBsubject('Algebra')
+## DBchapter('Fundamentals')
+## DBsection('Real Numbers')
+## Date('6/3/2002')
+## Author('')
+## Institution('')
+## TitleText1('Precalculus')
+## EditionText1('3')
+## AuthorText1('Stewart, Redlin, Watson')
+## Section1('1.1')
+## Problem1('22')
+
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+   "PGstandard.pl",     # Standard macros for PG language
+   "MathObjects.pl",
+   #"source.pl",        # allows code to be displayed on certain sites.
+   #"PGcourse.pl",      # Customization file for the course
+);
+
+# Print problem number and point value (weight) for the problem
+TEXT(beginproblem());
+
+# Show which answers are correct and which ones are incorrect
+$showPartialCorrectAnswers = 1;
+
+##############################################################
+#
+#  Setup
+#
+#
+Context("Vector");
+Context()->variables->are(t=>'Real', a=>'Real', b=>'Real');
+$a = random(1,3);
+$b = random(1,3);
+$x = Formula("a cos(t)");
+$y = Formula("a sin(t)");
+$z = Formula("b t ");
+$r = Formula("$x i + $y j +$z k");           #position vector
+###############
+#  variable speed u(t)
+$u = Formula("t^2");
+$up = $u->D('t');
+$upp = $up->D('t');
+
+$xp=$x->D('t');
+$yp=$y->D('t');
+$zp=$z->D('t');
+$xpp = $xp->D('t');
+$ypp = $yp->D('t');
+$zpp = $zp->D('t');
+$rp  = Formula("$xp i + $yp j + $zp k");     #velocity vector
+$rpp = Formula("$xpp i + $ypp j + $zpp k");  #acceleration
+$v = Formula("sqrt(a^2 +b^2)");            # speed (constant) 
+$T = $rp/$v;                                 # unit tangent vector
+$s = Formula("$v t");
+$kappa = Formula(" a/(a^2+b^2)");
+$curv  = Formula("1/a");                    # curvature of helix collapsed to a circle
+$N = Formula("<-cos t, -sin t, 0 >");
+$pi=Formula("pi");
+
+#############
+# variable speed
+$r2 = $r->substitute(t=>$u);
+$r2p = $up*($rp->substitute(t=>$u) );
+$v2  = abs($up*$v);
+$s2  = $u*$v;
+$tangent_acceleration = $upp*$v;
+$normal_acceleration = Compute("($up $v)^2 $kappa");
+#############
+
+##############################################################
+#
+#  Text
+#
+#
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Now suppose that the particles moves along the  helix in the previous problem with a speed that is changing.  Your answers will still be in terms of \(a\), \(b\) and \(t\) $PAR
+The position of the particle is now \(r_2(t) =$r2\)$PAR
+$HR
+The velocity vector is \(r_2'(t) =  \)\{ans_rule(40)\} $PAR
+The speed is \(v_2 = \)\{ans_rule(40)\}$PAR
+The distance along the curve at time \(t \) is \(s_2(t) =  \)\{ans_rule(40)\}$PAR
+The tangential acceleration is \(a_T = \)\{ans_rule(40)\}$PAR
+and the perpendicular acceleration is \(a_N = \)\{ans_rule(40)\}
+END_TEXT
+Context()->normalStrings;
+ANS( $r2p->cmp,
+     $v2->cmp,
+     $s2->cmp,
+     $tangent_acceleration->cmp,
+     $normal_acceleration->cmp
+);
+
+     
+
+Context()->texStrings;
+BEGIN_SOLUTION
+The position of the particle is now \(r_2(t) =$r2\)$PAR
+The velocity vector is \(r_2'(t) = $r2p \) $PAR
+The speed is \(v_2 = $v2\)$PAR
+The distance along the curve at time \(t \) is \(s_2(t) = $s2 \)$PAR
+The tangential acceleration is \(a_T = $tangent_acceleration\)$PAR
+and the perpendicular acceleration is \(a_N = $normal_acceleration\)
+END_SOLUTION
+Context()->normalStrings;
+
+
+
+##############################################################
+#
+#  Answers
+#
+#
+
+# relative tolerance --3.1412 is incorrect but 3.1413 is correct
+# default tolerance is .01 or one percent.
+
+
+ENDDOCUMENT();        
